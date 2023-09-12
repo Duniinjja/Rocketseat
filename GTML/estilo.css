@@ -1,0 +1,70 @@
+.image-gallery{
+    display:flex;
+    flex-direction: column;
+}
+.ursos-img{
+    display :flex;
+    flex-direction: row;
+}
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3E92CC;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #3E92CC;
+}
+
+.main-content, .ong-content, .image-gallery {
+    padding: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #3E92CC;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    flex: 1;
+    margin: 10px;
+}
+
+.image img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #3E92CC;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
